@@ -1,0 +1,62 @@
+
+header h1 { margin: 1rem 0; }
+
+.titulo-home {
+  text-align: center;
+}
+
+.tienda-image {
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+  background-color: #0a0a39; /* un tono un poco más claro que el fondo, pega con el gradiente */
+  border-radius: 999px; /* redondeado tipo píldora */
+  padding: 0.8rem 2rem;
+  margin: 1rem auto;
+  max-width: fit-content;
+  
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+  font-family: "Ruluko", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.nav-links a:hover {
+  transform: scale(1.15);
+}
+
+
+.nav-links a {
+  text-decoration: none;
+  color: #aac114;
+  transition: transform 0.2s ease;
+  display: inline-block;
+}
+
+
+ .tienda-image {
+  max-width: 80%;
+  height: auto;
+  border-radius: 8px;
+   margin-top: 3rem;
+}
+
+body {
+  background: linear-gradient(135deg, #1e1e2f, #2d2d44);
+  color: #fff; /* si usas fondo oscuro, cambia el color del texto */
+}
+
+.highlight-m {
+  color: #aac114; /* Cambia el color de la letra M */
+}
